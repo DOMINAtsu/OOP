@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\LB_1">
+      <UniqueIdentifier>{5641460c-fc75-4d75-bbcb-4eda93794a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\LB_1">
+      <UniqueIdentifier>{abd02833-49db-426e-9098-8346de63a36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\LB_2">
+      <UniqueIdentifier>{31c6f414-33f0-4571-87a1-072686f3bedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\LB_2">
+      <UniqueIdentifier>{cc508a41-3b14-4388-83e5-ae3c1d7e78cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\LB_3">
+      <UniqueIdentifier>{63241c7f-c80f-422e-b795-8b03b76cbd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\LB_3">
+      <UniqueIdentifier>{295c4675-6151-4d99-b834-a83b2bc3fb9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>Исходные файлы\LB_1</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>Исходные файлы\LB_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы\LB_2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="function.h">
+      <Filter>Файлы заголовков\LB_1</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
+      <Filter>Файлы заголовков\LB_3</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Файлы заголовков\LB_2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
